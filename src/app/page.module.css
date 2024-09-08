@@ -228,3 +228,8 @@
     transform: rotate(0deg);
   }
 }
+
+button {
+  height: 25;
+  margin-left: 5px;
+}

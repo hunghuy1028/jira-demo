@@ -1,0 +1,914 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 50,
+    "total": 4,
+    "issues": [
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10000",
+            "self": "https://hunghung274.atlassian.net/rest/api/3/issue/10000",
+            "key": "SCRUM-1",
+            "fields": {
+                "statuscategorychangedate": "2024-09-07T17:11:26.267+0700",
+                "issuetype": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issuetype/10003",
+                    "id": "10003",
+                    "description": "Stories track functionality or features expressed as user goals.",
+                    "iconUrl": "https://hunghung274.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                    "name": "Story",
+                    "subtask": false,
+                    "avatarId": 10315,
+                    "entityId": "a1044161-ee13-4d41-b22a-28ea4d661e64",
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "project": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/project/10000",
+                    "id": "10000",
+                    "key": "SCRUM",
+                    "name": "Elcollab",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414",
+                        "24x24": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=small",
+                        "16x16": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=xsmall",
+                        "32x32": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "customfield_10032": null,
+                "fixVersions": [],
+                "customfield_10033": null,
+                "aggregatetimespent": null,
+                "customfield_10034": null,
+                "resolution": null,
+                "customfield_10036": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issue/SCRUM-1/watchers",
+                    "watchCount": 0,
+                    "isWatching": false
+                },
+                "lastViewed": "2024-09-07T18:20:41.427+0700",
+                "created": "2024-08-29T17:59:16.843+0700",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "SCRUM Sprint 1",
+                        "state": "active",
+                        "boardId": 1,
+                        "goal": "",
+                        "startDate": "2024-09-07T10:11:23.144Z",
+                        "endDate": "2024-09-21T10:11:21.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "priority": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://hunghung274.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10024": null,
+                "customfield_10069": null,
+                "customfield_10025": null,
+                "labels": [],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "EPIC_LINK_SHOULD_BE_USED",
+                        "message": "To set an epic as the parent, use the epic link instead"
+                    }
+                },
+                "customfield_10019": "0|hzzzzz:",
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "updated": "2024-09-07T17:11:26.266+0700",
+                "status": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/status/10000",
+                    "description": "",
+                    "iconUrl": "https://hunghung274.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://hunghung274.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "Implement label change",
+                "creator": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issue/SCRUM-1/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10049",
+            "self": "https://hunghung274.atlassian.net/rest/api/3/issue/10049",
+            "key": "GTMS-15",
+            "fields": {
+                "statuscategorychangedate": "2024-09-07T17:12:34.360+0700",
+                "issuetype": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issuetype/10039",
+                    "id": "10039",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://hunghung274.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "entityId": "4ff1934a-6a3e-4921-9af0-e2af6f9000d4",
+                    "hierarchyLevel": 0
+                },
+                "customfield_10070": null,
+                "timespent": null,
+                "project": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/project/10033",
+                    "id": "10033",
+                    "key": "GTMS",
+                    "name": "Go to market sample",
+                    "projectTypeKey": "business",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417",
+                        "24x24": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=small",
+                        "16x16": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=xsmall",
+                        "32x32": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "fixVersions": [],
+                "customfield_10034": null,
+                "aggregatetimespent": null,
+                "resolution": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/resolution/10000",
+                    "id": "10000",
+                    "description": "Work has been completed on this issue.",
+                    "name": "Done"
+                },
+                "customfield_10036": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": "2024-09-07T17:12:34.351+0700",
+                "workratio": -1,
+                "watches": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issue/GTMS-15/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "lastViewed": null,
+                "created": "2024-09-07T17:12:34.009+0700",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/priority/2",
+                    "iconUrl": "https://hunghung274.atlassian.net/images/icons/priorities/high.svg",
+                    "name": "High",
+                    "id": "2"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": "10035_*:*_1_*:*_361_*|*_10038_*:*_1_*:*_0",
+                "customfield_10069": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/customFieldOption/10020",
+                    "value": "Core",
+                    "id": "10020"
+                },
+                "customfield_10026": null,
+                "labels": [
+                    "product",
+                    "research",
+                    "ux"
+                ],
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "EPIC_LINK_SHOULD_BE_USED",
+                        "message": "To set an epic as the parent, use the epic link instead"
+                    }
+                },
+                "customfield_10019": "0|i0003r:",
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "updated": "2024-09-07T17:12:34.360+0700",
+                "status": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/status/10038",
+                    "description": "",
+                    "iconUrl": "https://hunghung274.atlassian.net/",
+                    "name": "Launched",
+                    "id": "10038",
+                    "statusCategory": {
+                        "self": "https://hunghung274.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "aggregatetimeestimate": null,
+                "customfield_10009": null,
+                "summary": "Conduct user interviews for feedback",
+                "creator": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issue/GTMS-15/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10045",
+            "self": "https://hunghung274.atlassian.net/rest/api/3/issue/10045",
+            "key": "GTMS-11",
+            "fields": {
+                "statuscategorychangedate": "2024-09-07T17:12:31.758+0700",
+                "issuetype": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issuetype/10039",
+                    "id": "10039",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://hunghung274.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "entityId": "4ff1934a-6a3e-4921-9af0-e2af6f9000d4",
+                    "hierarchyLevel": 0
+                },
+                "customfield_10070": null,
+                "timespent": null,
+                "project": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/project/10033",
+                    "id": "10033",
+                    "key": "GTMS",
+                    "name": "Go to market sample",
+                    "projectTypeKey": "business",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417",
+                        "24x24": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=small",
+                        "16x16": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=xsmall",
+                        "32x32": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "customfield_10032": null,
+                "fixVersions": [],
+                "customfield_10033": null,
+                "customfield_10034": null,
+                "aggregatetimespent": null,
+                "resolution": null,
+                "customfield_10036": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "lastViewed": null,
+                "watches": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issue/GTMS-11/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-07T17:12:31.362+0700",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://hunghung274.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10069": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/customFieldOption/10022",
+                    "value": "Content creation",
+                    "id": "10022"
+                },
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "labels": [
+                    "design",
+                    "marketing"
+                ],
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "EPIC_LINK_SHOULD_BE_USED",
+                        "message": "To set an epic as the parent, use the epic link instead"
+                    }
+                },
+                "customfield_10019": "0|i0002v:",
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [
+                    {
+                        "id": "10002",
+                        "self": "https://hunghung274.atlassian.net/rest/api/3/issueLink/10002",
+                        "type": {
+                            "id": "10000",
+                            "name": "Blocks",
+                            "inward": "is blocked by",
+                            "outward": "blocks",
+                            "self": "https://hunghung274.atlassian.net/rest/api/3/issueLinkType/10000"
+                        },
+                        "outwardIssue": {
+                            "id": "10050",
+                            "key": "GTMS-16",
+                            "self": "https://hunghung274.atlassian.net/rest/api/3/issue/10050",
+                            "fields": {
+                                "summary": "Launch ad campaign",
+                                "status": {
+                                    "self": "https://hunghung274.atlassian.net/rest/api/3/status/10035",
+                                    "description": "",
+                                    "iconUrl": "https://hunghung274.atlassian.net/",
+                                    "name": "To Do",
+                                    "id": "10035",
+                                    "statusCategory": {
+                                        "self": "https://hunghung274.atlassian.net/rest/api/3/statuscategory/2",
+                                        "id": 2,
+                                        "key": "new",
+                                        "colorName": "blue-gray",
+                                        "name": "To Do"
+                                    }
+                                },
+                                "priority": {
+                                    "self": "https://hunghung274.atlassian.net/rest/api/3/priority/4",
+                                    "iconUrl": "https://hunghung274.atlassian.net/images/icons/priorities/low.svg",
+                                    "name": "Low",
+                                    "id": "4"
+                                },
+                                "issuetype": {
+                                    "self": "https://hunghung274.atlassian.net/rest/api/3/issuetype/10039",
+                                    "id": "10039",
+                                    "description": "A small, distinct piece of work.",
+                                    "iconUrl": "https://hunghung274.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                                    "name": "Task",
+                                    "subtask": false,
+                                    "avatarId": 10318,
+                                    "entityId": "4ff1934a-6a3e-4921-9af0-e2af6f9000d4",
+                                    "hierarchyLevel": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "10001",
+                        "self": "https://hunghung274.atlassian.net/rest/api/3/issueLink/10001",
+                        "type": {
+                            "id": "10000",
+                            "name": "Blocks",
+                            "inward": "is blocked by",
+                            "outward": "blocks",
+                            "self": "https://hunghung274.atlassian.net/rest/api/3/issueLinkType/10000"
+                        },
+                        "outwardIssue": {
+                            "id": "10037",
+                            "key": "GTMS-3",
+                            "self": "https://hunghung274.atlassian.net/rest/api/3/issue/10037",
+                            "fields": {
+                                "summary": "Feature release email copy",
+                                "status": {
+                                    "self": "https://hunghung274.atlassian.net/rest/api/3/status/10037",
+                                    "description": "",
+                                    "iconUrl": "https://hunghung274.atlassian.net/",
+                                    "name": "Ready for Launch",
+                                    "id": "10037",
+                                    "statusCategory": {
+                                        "self": "https://hunghung274.atlassian.net/rest/api/3/statuscategory/4",
+                                        "id": 4,
+                                        "key": "indeterminate",
+                                        "colorName": "yellow",
+                                        "name": "In Progress"
+                                    }
+                                },
+                                "priority": {
+                                    "self": "https://hunghung274.atlassian.net/rest/api/3/priority/1",
+                                    "iconUrl": "https://hunghung274.atlassian.net/images/icons/priorities/highest.svg",
+                                    "name": "Highest",
+                                    "id": "1"
+                                },
+                                "issuetype": {
+                                    "self": "https://hunghung274.atlassian.net/rest/api/3/issuetype/10039",
+                                    "id": "10039",
+                                    "description": "A small, distinct piece of work.",
+                                    "iconUrl": "https://hunghung274.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                                    "name": "Task",
+                                    "subtask": false,
+                                    "avatarId": 10318,
+                                    "entityId": "4ff1934a-6a3e-4921-9af0-e2af6f9000d4",
+                                    "hierarchyLevel": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "10000",
+                        "self": "https://hunghung274.atlassian.net/rest/api/3/issueLink/10000",
+                        "type": {
+                            "id": "10000",
+                            "name": "Blocks",
+                            "inward": "is blocked by",
+                            "outward": "blocks",
+                            "self": "https://hunghung274.atlassian.net/rest/api/3/issueLinkType/10000"
+                        },
+                        "inwardIssue": {
+                            "id": "10035",
+                            "key": "GTMS-1",
+                            "self": "https://hunghung274.atlassian.net/rest/api/3/issue/10035",
+                            "fields": {
+                                "summary": "Create positioning and messaging for new feature",
+                                "status": {
+                                    "self": "https://hunghung274.atlassian.net/rest/api/3/status/10037",
+                                    "description": "",
+                                    "iconUrl": "https://hunghung274.atlassian.net/",
+                                    "name": "Ready for Launch",
+                                    "id": "10037",
+                                    "statusCategory": {
+                                        "self": "https://hunghung274.atlassian.net/rest/api/3/statuscategory/4",
+                                        "id": 4,
+                                        "key": "indeterminate",
+                                        "colorName": "yellow",
+                                        "name": "In Progress"
+                                    }
+                                },
+                                "priority": {
+                                    "self": "https://hunghung274.atlassian.net/rest/api/3/priority/2",
+                                    "iconUrl": "https://hunghung274.atlassian.net/images/icons/priorities/high.svg",
+                                    "name": "High",
+                                    "id": "2"
+                                },
+                                "issuetype": {
+                                    "self": "https://hunghung274.atlassian.net/rest/api/3/issuetype/10039",
+                                    "id": "10039",
+                                    "description": "A small, distinct piece of work.",
+                                    "iconUrl": "https://hunghung274.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                                    "name": "Task",
+                                    "subtask": false,
+                                    "avatarId": 10318,
+                                    "entityId": "4ff1934a-6a3e-4921-9af0-e2af6f9000d4",
+                                    "hierarchyLevel": 0
+                                }
+                            }
+                        }
+                    }
+                ],
+                "assignee": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "updated": "2024-09-07T17:12:38.207+0700",
+                "status": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/status/10036",
+                    "description": "",
+                    "iconUrl": "https://hunghung274.atlassian.net/",
+                    "name": "In Progress",
+                    "id": "10036",
+                    "statusCategory": {
+                        "self": "https://hunghung274.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": "2024-08-23",
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "Host webinar",
+                "creator": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": "2024-09-20",
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issue/GTMS-11/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10044",
+            "self": "https://hunghung274.atlassian.net/rest/api/3/issue/10044",
+            "key": "GTMS-10",
+            "fields": {
+                "statuscategorychangedate": "2024-09-07T17:12:31.085+0700",
+                "issuetype": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issuetype/10039",
+                    "id": "10039",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://hunghung274.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "entityId": "4ff1934a-6a3e-4921-9af0-e2af6f9000d4",
+                    "hierarchyLevel": 0
+                },
+                "customfield_10070": null,
+                "timespent": null,
+                "project": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/project/10033",
+                    "id": "10033",
+                    "key": "GTMS",
+                    "name": "Go to market sample",
+                    "projectTypeKey": "business",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417",
+                        "24x24": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=small",
+                        "16x16": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=xsmall",
+                        "32x32": "https://hunghung274.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "customfield_10032": null,
+                "fixVersions": [],
+                "customfield_10033": null,
+                "customfield_10034": null,
+                "aggregatetimespent": null,
+                "resolution": null,
+                "customfield_10036": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issue/GTMS-10/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "lastViewed": null,
+                "created": "2024-09-07T17:12:30.684+0700",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://hunghung274.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10069": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/customFieldOption/10022",
+                    "value": "Content creation",
+                    "id": "10022"
+                },
+                "customfield_10025": null,
+                "labels": [
+                    "design"
+                ],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "EPIC_LINK_SHOULD_BE_USED",
+                        "message": "To set an epic as the parent, use the epic link instead"
+                    }
+                },
+                "customfield_10019": "0|i0002n:",
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "updated": "2024-09-07T17:12:31.085+0700",
+                "status": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/status/10036",
+                    "description": "",
+                    "iconUrl": "https://hunghung274.atlassian.net/",
+                    "name": "In Progress",
+                    "id": "10036",
+                    "statusCategory": {
+                        "self": "https://hunghung274.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": "2024-08-18",
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "customfield_10007": null,
+                "security": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "Illustrations for website and mobile app",
+                "creator": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/user?accountId=5fb22f37dd0c5900758d8ad1",
+                    "accountId": "5fb22f37dd0c5900758d8ad1",
+                    "emailAddress": "hunghung274@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/32eb843d735e9abccd1bf0e14b99cb62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHH-3.png"
+                    },
+                    "displayName": "Huy Hung",
+                    "active": true,
+                    "timeZone": "Asia/Bangkok",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": "2024-08-28",
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://hunghung274.atlassian.net/rest/api/3/issue/GTMS-10/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        }
+    ]
+}
