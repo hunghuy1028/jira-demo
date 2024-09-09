@@ -1,5 +1,5 @@
 const Constants = {
-    ApiKey: "ATATT3xFfGF0LO7TxKqqanreqwvQC2qUP6LfjVNL3SIayKXMCsIRq1jh9tDXUhx2ORpHnTbo4ydVoiD67WhqRYStlADMj59DXK3XuV4hMNuqS4HP3oCciCJbDYacWiffXpEMyVhbDcdU89JJzFGYcQGqIufezZ5nT2VAVM9D7RLkwyF4JySOIJY=12D6A0ED",
+    ApiKey: "ATATT3xFfGF0LO7T---",
     Username: "hunghung274@gmail.com",
 
 }
