@@ -1,7 +1,9 @@
 const Constants = {
-    ApiKey: "ATATT3xFfGF0LO7T---",
+    ApiKey: "",
     Username: "hunghung274@gmail.com",
-
+    ClientId: "", // contact me to get key
+    ClientSecret: "", // contact me to get key
+    StateCode: "HelloWord"
 }
 
 const JiraRequest = {
