@@ -3,4 +3,5 @@ export interface Option {
     Value: string;
     Mode: "edit" | "done";
     Count: number;
+    ShowEdit: boolean;
 }
